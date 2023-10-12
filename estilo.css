@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap');
+
+@media screen and (min-width: 769px) {
+    body {
+        color:white;
+        background-color: #00233f;
+        font-family: 'Barlow Condensed', sans-serif;
+        
+    }
+
+    img {
+        height: 80px;
+        display: block;
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
+        font-size: 50px;
+        text-shadow: 5px 5px 10px #000;
+
+    }
+
+    h2 {
+        text-align: center;
+        color: rgb(255, 248, 248);
+        font-size: 35px;
+        text-shadow: 5px 5px 10px #000;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .border {
+        border: 5px solid #1d71a1;
+        border-style: double;
+        border-radius: 40px;
+        padding: 15px;
+        position: sticky;
+        left: 20%;
+        display: inline-block;
+    }
+
+    .borderint {
+        text-decoration: none;
+        border: 5px solid #1d71a1;
+        border-style: double;
+        border-radius: 40px;
+        max-width: 100px;
+        min-width: 80%;
+        position: sticky;
+        left: 32%;
+        display: inline-block;
+        transition: 0.25s;
+
+    }
+
+    a {
+        color: rgb(255, 255, 255);
+        font-size: 24px;
+        transition: 1s;
+        text-decoration: none;
+        display: block;
+
+    }
+
+    p {
+        color: rgb(255, 255, 255);
+        font-size: 23px;
+        text-align: justify;
+        font-weight: bold;
+    }
+
+    .centro {
+        align-items: center;
+    }
+
+    .borderint:hover {
+        font-size: 27px;
+        background-color: #1d71a1;
+        border-color: #1d71a1;
+        box-shadow: 1px 2px 3px #000;
+    }
+
+    .back {
+        text-decoration: none;
+        border: 5px solid #1d71a1;
+        border-style: double;
+        border-radius: 40px;
+        max-width: 100px;
+        min-width: 61%;
+        position: sticky;
+        left: 20%;
+        display: inline-block;
+        transition: 0.25s;
+    }
+
+    .back:hover {
+        font-size: 27px;
+        background-color: #1d71a1;
+        border-color: #1d71a1;
+        box-shadow: 1px 2px 3px #000;
+    }
+
+    span {
+        text-decoration: underline;
+    }
+
+    #h1be {
+        text-align: center;
+        font-size: 40px;
+        text-shadow: 5px 5px 5px #000;
+
+    }
+
+    #seguranca p {
+        text-align: justify;
+        border: 5px double #125881;
+        font-weight: bold;
+        font-size: 23px;
+        padding: 10px;
+        padding-left: 5px;
+        border-radius: 40px;
+        padding: 20px;
+    }
+
+    #seguranca h3 {
+        font-weight: bold;
+        font-size: 30px;
+        display: block;
+        text-shadow: 5px 5px 5px #000;
+        text-align: center;
+    }
+
+    #conforto p {
+        text-align: justify;
+        border: 5px double #125881;
+        font-weight: bold;
+        font-size: 23px;
+        padding: 10px;
+        padding-left: 5px;
+        border-radius: 40px;
+        padding: 20px;
+
+    }
+
+    #conforto h3 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+        display: block;
+        text-shadow: 5px 5px 5px #000
+    }
+
+    #acessibilidade p {
+        text-align: justify;
+        border: 5px double #125881;
+        font-weight: bold;
+        font-size: 23px;
+        padding: 10px;
+        padding-left: 5px;
+        border-radius: 40px;
+        padding: 20px;
+    }
+
+    #acessibilidade h3 {
+        font-weight: bold;
+        text-align: center;
+        font-size: 30px;
+        display: block;
+        text-shadow: 5px 5px 5px #000
+    }
+
+    #economia p {
+        text-align: justify;
+        border: 5px double #125881;
+        font-weight: bold;
+        font-size: 23px;
+        padding: 10px;
+        padding-left: 5px;
+        border-radius: 40px;
+        padding: 20px;
+    }
+
+    #economia h3 {
+        font-weight: bold;
+        text-align: center;
+        font-size: 30px;
+        display: block;
+        text-shadow: 5px 5px 5px #000
+    }
+
+    #Flexibilidade p {
+        text-align: justify;
+        border: 5px double #125881;
+        font-weight: bold;
+        font-size: 23px;
+        padding: 10px;
+        padding-left: 5px;
+        border-radius: 40px;
+        padding: 20px;
+    }
+
+    #Flexibilidade h3 {
+        font-weight: bold;
+        text-align: center;
+        font-size: 30px;
+        display: block;
+        text-shadow: 5px 5px 5px #000
+    }
+
+
+    /*Para computador acima*/
+}
+
+@media screen and (max-width: 768px) {
+
+    /*celular*/
+    body {
+        color:white;
+        background-color: #00233f;
+        font-family: 'Barlow Condensed', sans-serif;
+        margin-top: 35%;
+    }
+    img {
+        height: 80px;
+        display: block;
+        margin: 0px auto;
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
+        font-size: 50px;
+        text-shadow: 5px 5px 10px #000;
+
+    }
+
+    h2 {
+        font-size:32px;
+        text-align: center;
+        color: rgb(255, 248, 248);
+
+    }
+
+    .border {
+        border: 7px double #1d71a1;
+        border-radius: 40px;
+        max-width: -50px;
+        min-width: 50%;
+        position: sticky;
+        left: 5%;
+        padding: 5%;
+    }
+
+    .border:hover {
+        box-shadow: 1px 1px 1px #1872a7;
+    }
+
+    .borderint {
+        text-decoration: none;
+        border: 5px double #1d71a1;
+        border-radius: 40px;
+        max-width: 100px;
+        min-width: 80%;
+        position: sticky;
+        display: inline-block;
+        transition: 0.5s;
+
+
+    }
+
+    span {
+        text-decoration: underline;
+
+    }
+
+    a {
+        color: rgb(255, 255, 255);
+        font-size: 24px;
+        transition: 1s;
+        display: block;
+        text-decoration: none;
+
+    }
+
+    p {
+        color: rgb(255, 255, 255);
+        font-size: 23px;
+        font-weight: bold;
+
+    }
+
+    .centro {
+        margin-top: 15%;
+    }
+
+    .borderint:hover {
+        font-size: 27px;
+        background-color: #1c5f86;
+        border-color: #2676a5;
+        box-shadow: 1px 2px 3px #000;
+    }
+
+    .back {
+        text-decoration: none;
+        border: 5px solid #1d71a1;
+        border-style: double;
+        border-radius: 40px;
+        max-width: 100px;
+        min-width: 61%;
+        position: sticky;
+        left: 20%;
+        display: inline-block;
+        transition: 0.5s;
+    }
+
+    .back:hover {
+        font-size: 27px;
+        background-color: #1d71a1;
+        border-color: #1d71a1;
+        box-shadow: 1px 2px 3px #000;
+    }
+    #h1be {
+        text-align: center;
+        font-size: 40px;
+        text-shadow: 5px 5px 5px #000;
+
+    }
+
+    #seguranca p {
+        text-align: justify;
+        border: 5px double #125881;
+        font-weight: bold;
+        font-size: 23px;
+        padding: 10px;
+        padding-left: 5px;
+        border-radius: 40px;
+        padding: 20px;
+    }
+
+    #seguranca h3 {
+        font-weight: bold;
+        font-size: 30px;
+        display: block;
+        text-shadow: 5px 5px 5px #000;
+        text-align: center;
+    }
+
+    #conforto p {
+        text-align: justify;
+        border: 5px double #125881;
+        font-weight: bold;
+        font-size: 23px;
+        padding: 10px;
+        padding-left: 5px;
+        border-radius: 40px;
+        padding: 20px;
+
+    }
+
+    #conforto h3 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+        display: block;
+        text-shadow: 5px 5px 5px #000
+    }
+
+    #acessibilidade p {
+        text-align: justify;
+        border: 5px double #125881;
+        font-weight: bold;
+        font-size: 23px;
+        padding: 10px;
+        padding-left: 5px;
+        border-radius: 40px;
+        padding: 20px;
+    }
+
+    #acessibilidade h3 {
+        font-weight: bold;
+        text-align: center;
+        font-size: 30px;
+        display: block;
+        text-shadow: 5px 5px 5px #000
+    }
+
+    #economia p {
+        text-align: justify;
+        border: 5px double #125881;
+        font-weight: bold;
+        font-size: 23px;
+        padding: 10px;
+        padding-left: 5px;
+        border-radius: 40px;
+        padding: 20px;
+    }
+
+    #economia h3 {
+        font-weight: bold;
+        text-align: center;
+        font-size: 30px;
+        display: block;
+        text-shadow: 5px 5px 5px #000
+    }
+
+    #Flexibilidade p {
+        text-align: justify;
+        border: 5px double #125881;
+        font-weight: bold;
+        font-size: 23px;
+        padding: 10px;
+        padding-left: 5px;
+        border-radius: 40px;
+        padding: 20px;
+    }
+
+    #Flexibilidade h3 {
+        font-weight: bold;
+        text-align: center;
+        font-size: 30px;
+        display: block;
+        text-shadow: 5px 5px 5px #000
+    }   
+    
+
+}
